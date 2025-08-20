@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website Modern</title>
+  <title>Website Modern SPA</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,47 +13,19 @@
       <h1 class="logo">DarulKirom</h1>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Tentang</a></li>
-          <li><a href="#contact">Kontak</a></li>
+          <li><a href="#" data-page="home">Home</a></li>
+          <li><a href="#" data-page="about">Tentang</a></li>
+          <li><a href="#" data-page="contact">Kontak</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h2>Selamat Datang 👋</h2>
-      <p>Website modern sederhana dengan HTML, CSS, dan JavaScript.</p>
-      <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
-    </div>
-  </section>
+  <!-- Content Dinamis -->
+  <main id="content" class="section">
+    <!-- Halaman akan dimuat di sini -->
+  </main>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>Tentang Saya</h2>
-      <p>Saya sedang belajar membuat website modern dengan desain responsif. 
-         Website ini dibuat menggunakan HTML5, CSS3, dan JavaScript.</p>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Kontak</h2>
-      <form id="contactForm">
-        <input type="text" placeholder="Nama" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Pesan kamu..." required></textarea>
-        <button type="submit" class="btn">Kirim</button>
-      </form>
-      <p id="msg"></p>
-    </div>
-  </section>
-
-  <!-- Footer -->
   <footer>
     <p>© 2025 DarulKirom | Dibuat dengan ❤️</p>
   </footer>
